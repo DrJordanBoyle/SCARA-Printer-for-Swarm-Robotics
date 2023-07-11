@@ -11,13 +11,16 @@ The current version of the printer utilizing any limit switches yet, therefore b
 
 2. Make sure you are using the correct port by selecting the port on the top left, and also make sure the baudrate is set to the correct value which can be found next to the port settings. In this case, using the BTT SKR Mini E3 the baudrate should be set to 115200.
 
+![Pronterface interface](https://github.com/MigraineMonster/SCARA-Printer-for-Swarm-Robotics/assets/129239045/872d8f81-bb58-4bb5-955e-9baecc32c4dd)
+
 3. On the top left, you can press connect and a message should pop up in the serial monitor on the right side that says "Printer is now online.".
 
 4. Place the arms/links straight out in front of the machine, making sure that the angles theta1 and theta2 are 90 degrees (or as near as possible).
+
 ![How to initially setup the links](https://github.com/MigraineMonster/SCARA-Printer-for-Swarm-Robotics/assets/129239045/ae2f248a-3458-46ab-94c9-de808198a1d1)
 
 5. Using an interface such as Pronterface, use G-CODE G92 to indicate the current position. Fill out "G92 X50 Y109.5". This position was calculated as the coordinates of the end effector when theta1 and theta2 are 90 degrees. 
-![Pronterface interface](https://github.com/MigraineMonster/SCARA-Printer-for-Swarm-Robotics/assets/129239045/872d8f81-bb58-4bb5-955e-9baecc32c4dd)
+
 
 6. From here, you should be able to use G-CODE G1 to move around the end effector. The center of this print area can be found at (30,100). Use "G1 X30 Y100" to move the end effector to the middle of the 'bed'.
 
