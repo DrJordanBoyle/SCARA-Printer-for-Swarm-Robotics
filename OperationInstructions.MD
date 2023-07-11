@@ -6,6 +6,10 @@ The current version of the printer utilizing any limit switches yet, therefore b
 - The end effector can move outside of the set bed space, but there is risk of reaching coordinates that are unattainable which will cause malfunctions.
 - This project used 'Pronterface' to connect and interact with the printer using a computer, there are other softwares that do the same.
 
+### Initial settings
+1. Use G-CODE M906 to limit the current for the steppers for the X and Y to 850 mA while the extruder stepper can be set to 1000 mA. In the serial monitor you can insert "M906 X850 Y850 Z850 E1000".
+2. Use G-code M500 to save settings in the EPROM.
+
 ### Step by step instructions
 1. Connect the motherboard with a computer with Pronterface using the given USB cable (micro USB probably).
 
@@ -29,4 +33,9 @@ The current version of the printer utilizing any limit switches yet, therefore b
 ### 8. IMPORTANT: Turn on the fan manually and set to 100% before printing! Use "M106 P2 S255" to set the hot end fan to 100%. The S indicates the power with 255 being 100%, the P indicates the fan index, could vary if a different setup is used. Withot this the hot end holder may start to deform due to the heat.
 
 9. You can now start printing!
+
+# Operational Instructions
+The printer is quite barebones at this point, meaning that various things still must be done manually. Here below you will find general steps to take during printing.
+
+1. 
 
