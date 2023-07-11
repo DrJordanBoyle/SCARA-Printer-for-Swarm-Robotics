@@ -7,3 +7,4 @@ The current version of the printer utilizing any limit switches yet, therefore b
 3. From here, you should be able to use G-CODE G1 to move around the end effector. The center of this print area can be found at (30,100). Use "G1 X30 Y100" to move the end effector to the middle of the 'bed'.
 4. Now the Z-axis position must be homed, using the interface on pronterface keep moving the z-axis down until the hot-end is near the surface. Use a piece of A4 paper and place it between the hot end and the surface, you want to be able to move the paper around freely with some minor resistance. When that point is found, use "G92 Z0" to indicate the positioning of the Z-Axis.
 5. IMPORTANT: Turn on the fan manually and set to 100% before printing! Use "M106 P2 S255" to set the hot end fan to 100%.
+![Pronterface](https://github.com/MigraineMonster/SCARA-Printer-for-Swarm-Robotics/assets/129239045/872d8f81-bb58-4bb5-955e-9baecc32c4dd)
