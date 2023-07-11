@@ -37,5 +37,11 @@ The current version of the printer utilizing any limit switches yet, therefore b
 # Operational Instructions
 The printer is quite barebones at this point, meaning that various things still must be done manually. Here below you will find general steps to take during printing.
 
-1. 
+1. Good to do before printing is to pre heat the hot end and extrude a bit of the filament to double check that everything is set correctly, if the filament exits the nozzle in a somewhat straight line to the surface the printer is ready.
+
+2. Upon inserting the G-Code file Pronterface will show a mockup of the 3D model. In the top section of the interface you will find the print button, when pressed the system will start to pre-heat the hot end and finally print.
+
+3. At the end of the print it does not have the correct commands installed yet to end the print, so at the very last coordinate it will stop in place. To remove the nozzle from the print one must reset the printer and use the jog commands (the arrows in pronterface) to quickly remove the nozzle from the print.
+
+
 
