@@ -26,5 +26,5 @@ The current version of the printer utilizing any limit switches yet, therefore b
 
 7. Now the Z-axis position must be homed, using the interface on pronterface keep moving the z-axis down until the hot-end is near the surface. Use a piece of A4 paper and place it between the hot end and the surface, you want to be able to move the paper around freely with some minor resistance. When that point is found, use "G92 Z0" to indicate the positioning of the Z-Axis.
 
-8. IMPORTANT: Turn on the fan manually and set to 100% before printing! Use "M106 P2 S255" to set the hot end fan to 100%.
+### 8. IMPORTANT: Turn on the fan manually and set to 100% before printing! Use "M106 P2 S255" to set the hot end fan to 100%.
 
