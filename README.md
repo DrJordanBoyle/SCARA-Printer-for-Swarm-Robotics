@@ -14,4 +14,8 @@ The project explores the development of compact mobile 3D printers inspired by t
 
 5. The project's findings pave the way for further advancements in swarm robotics and additive manufacturing, providing new possibilities for the construction industry. The research showcases the exciting potential of compact mobile 3D printers and their ability to transform construction processes. This project's outcomes contribute to a safer, more efficient, and sustainable future for the construction sector.
 
-
+## Navigating the folders:
+- In the "Hardware" folder you will find assembly instructions and the .STL files for the 3D printed components.
+- In the "Firmware" folder you will find a small log that describes the adjustments made to the standard Marlin firmware and also the custom firmware itself.
+- Please use the github in combination with the Thesis paper to fully understand the concept! The thesis 
+"Design of a compact and mobile 3D Printer" can be found using the following link: https://repository.tudelft.nl/islandora/object/uuid:e90902cd-7b72-4dd6-bcc3-7ea3ccd2e8e0
