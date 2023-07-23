@@ -94,3 +94,6 @@ Consists of the elbow link and shoulder link.
 
 - There are small mounts designed to house the limit switches, you can attach one on the lead screw coupler, the second has no attachment point yet. These limit switches are not integrated into the firmware yet as of time of writing.
 - A spool holder, limit switches and filament line holder are not added yet but are advisable to design.
+
+## NOTE
+- For the hot end assembly please follow the guide of E3D that you can find online. The temperature settings must be adjusted first to correctly install the hot end.
