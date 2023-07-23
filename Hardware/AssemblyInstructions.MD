@@ -1,5 +1,12 @@
 # Assembly instructions SCARA ARM
 
+## General components overview
+
+![image](https://github.com/MigraineMonster/SCARA-Printer-for-Swarm-Robotics/assets/129239045/9aa6aaab-4435-4f46-8872-ab3884676ad9)
+![image](https://github.com/MigraineMonster/SCARA-Printer-for-Swarm-Robotics/assets/129239045/4e0d0d4e-0736-4bac-bb16-67041daf19b5)
+![image](https://github.com/MigraineMonster/SCARA-Printer-for-Swarm-Robotics/assets/129239045/5f7298cf-0f1d-4c22-ae8c-78f2426083e6)
+![image](https://github.com/MigraineMonster/SCARA-Printer-for-Swarm-Robotics/assets/129239045/a2cfe844-31cd-4113-bfd4-edc5b63c4e82)
+
 ## Part 1: Assemble the Tower
 
 Consists of the base, top plate, x2 shoulder plates (top and bottom).
