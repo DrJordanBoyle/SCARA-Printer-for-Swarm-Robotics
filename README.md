@@ -1,5 +1,6 @@
 # SCARA-Printer-for-Swarm-Robotics
 The project explores the development of compact mobile 3D printers inspired by the collective behavior of termites. By mimicking the swarm-like construction techniques employed by termites, this research aims to revolutionize the construction industry through the implementation of innovative robotic systems.
+![ASS Robotic-Builder_2023-May-10_05-36-22PM-000_CustomizedView9240691610_png_alpha](https://github.com/MigraineMonster/SCARA-Printer-for-Swarm-Robotics/assets/129239045/e3461493-f5a7-4e22-aab2-066d8f5b8dfe)
 
 ## Key Points:
 
